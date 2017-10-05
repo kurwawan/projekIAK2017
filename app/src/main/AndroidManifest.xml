@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.projekiak2017">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Boyolali Kuliner"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DefinisiActivity"
+            android:label="DEFINISI" />
+        <activity
+            android:name=".KulinerActivity"
+            android:label="SOTO DAGING BENING" />
+        <activity
+            android:name=".KulinerPilihanActivity"
+            android:label=" PILIHAN KULINER" />
+        <activity
+            android:name=".AsalActivity"
+            android:label="ASAL USUL" />
+        <activity
+            android:name=".KulinerSambelActivity"
+            android:label="SAMBEL TUMPANG" />
+        <activity
+            android:name=".KulinerJenangActivity"
+            android:label="JENANG PECEL" />
+        <activity
+            android:name=".KulinerDodolActivity"
+            android:label="DODOL SUSU" />
+        <activity
+            android:name=".KulinerTahuActivity"
+            android:label="TAHU SUSU" />
+        <activity
+            android:name=".KulinerMenthoActivity"
+            android:label="MENTHO" />
+        <activity
+            android:name=".KulinerJadahActivity"
+            android:label="JADAH BAKAR" />
+        <activity
+            android:name=".KuisPilihanGanda"
+            android:label="SOAL" />
+        <activity
+            android:name=".HasilSkoring"
+            android:label="HASIL SKOR" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>
